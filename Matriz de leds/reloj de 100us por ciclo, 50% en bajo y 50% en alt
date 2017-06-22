@@ -1,0 +1,54 @@
+reloj de 100us por ciclo, 50% en bajo y 50% en alto
+
+se envian paquetes de 16 bits que incluyen los datos para el renglon y el
+numero de renglon al que van los datos.
+
+
+Funciones SPI:
+
+    -Inicializar SPI con el PPI
+    -Enviar un dato de 8 bits
+    -Enviar un dato de 16 bits
+    -Enviar un buffer de datos de 8 bits
+    -Enviar un buffer de datos de 16 bits
+
+
+
+
+Inicialización del chip:
+
+    Probar el display: Enviar al registro 0x0F un 0x01
+    Habilitar el chip: Enviar al registro 0x0C un 0x01
+    Modo de trabajo:   Enviar al registro 0x09 un 0x00
+    Establecer intensidad de brillo: Enviar al registro 0x0A un 0x0F
+    Habilitar todos los displays: Enviar al registro 0x0B un 0x07
+
+
+
+Funciones Max7219
+
+    - Inicializacion del chip
+        Inicializa el chip y lo prueba
+
+    -Enviar dato al display
+        Recibe el dato a enviar y el nùmero de display al que se envia el dato.
+        Enviara un dato de 16 bits por SPI al display con el formato especìfico
+        para el display
+    -Enviar un buffer al display
+        Recibe el buffer y el tamaño del buffer.
+        Envìa el buffer a cada uno de los displays, sòlo se enviarán hasta 8 datos
+        si el buffer es mayor debe omitir los demas datos.
+
+    -Dibujar un pixel del display.
+        recibe la cordenadas (X, y) y el color del pixel, que puede ser 0 = apagado
+        o 1 = encendido. el limite de las cordenadas (X, Y) es 8.
+    -Dibujar una renglon del display.
+        Recibe el numero de linea y el dato a enviar.
+        El dato debe estar entre 0 y 255 y la linea entre 1 y 8.
+    -Dibujar una columna del display
+        Recibe el numero de la columna y el dato a enviar
+    -Refrescado de pantalla.
+        Envia el buffer de dibujado hacia la pantalla.
+
+    Guardar los datos en un buffer que se enviará posteriormente a la pantalla
+    y sobre el operan las funciones de dibujado.

@@ -1,0 +1,107 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180), page 1.
+Hexadecimal [16-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  2710 L
+    .__.ABS.                                                    =  0000 G
+    .__.CPU.                                                    =  0000 L
+    .__.H$L.                                                    =  0000 L
+  0 LOOP_10                                                        0200 R
+  0 LOOP_100                                                       0209 R
+    _PPI_CTRL                                                   =  0003 
+    _PPI_PORTA                                                  =  0000 
+    _PPI_PORTB                                                  =  0001 
+    _PPI_PORTC                                                  =  0002 
+    _URDLL                                                      =  0070 
+    _URDLM                                                      =  0071 
+    _URIER                                                      =  0071 
+    _URIIR                                                      =  0072 
+    _URLCR                                                      =  0073 
+    _URLSR                                                      =  0075 
+    _URMCR                                                      =  0074 
+    _URMSR                                                      =  0076 
+    _URRBR                                                      =  0070 
+    _URTHR                                                      =  0070 
+  1 ___ret_aux                                                     0000 R
+  2 __displayBuffer                                                0000 GR
+  7 __xinit___displayBuffer                                        0000 R
+  0 _borraFigura                                                   06A4 GR
+  1 _cont                                                          0001 GR
+  0 _delay_100us                                                   0205 GR
+  0 _delay_10us                                                    01FC GR
+  0 _delay_ms                                                      020E GR
+  0 _dibujaCara                                                    09A9 GR
+  0 _dibujaFigura                                                  05FF GR
+  0 _getchar                                                       0263 GR
+  0 _giraDerecha                                                   0B90 GR
+  0 _giraIzquierda                                                 0E31 GR
+  0 _iniciaJuego                                                   175F GR
+  0 _io_read                                                       0011 GR
+  0 _io_read_buffer                                                0042 GR
+  0 _io_write                                                      0000 GR
+  0 _io_write_buffer                                               0027 GR
+    _isprint                                                       **** GX
+  0 _isr_vector38                                                  05E3 GR
+  0 _isr_vector66                                                  05D5 GR
+  0 _llenaFigura                                                   0744 GR
+  0 _main                                                          1C5D GR
+  0 _max7219Clear                                                  03AF GR
+  0 _max7219DrawColumn                                             0532 GR
+  0 _max7219DrawPixel                                              03E9 GR
+  0 _max7219DrawRow                                                0501 GR
+  0 _max7219Init                                                   0360 GR
+  0 _max7219ReadColumn                                             05D4 GR
+  0 _max7219ReadDisplayBuffer                                      04CD GR
+  0 _max7219ReadPixel                                              056B GR
+  0 _max7219ReadRow                                                05AE GR
+  0 _max7219SetBright                                              047F GR
+  0 _max7219Test                                                   0448 GR
+  0 _max7219WriteDisplayBuffer                                     0498 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180), page 2.
+Hexadecimal [16-Bits]
+
+Symbol Table
+
+  0 _max7219WriteRegister                                          033D GR
+  0 _mueveAbajo                                                    186D GR
+  0 _mueveDerecha                                                  10CE GR
+  0 _mueveIzquierda                                                140C GR
+  0 _ppi_clear_portc_bit                                           01F3 GR
+  0 _ppi_init                                                      01A9 GR
+  0 _ppi_set_portc_bit                                             01E8 GR
+  0 _putchar                                                       0234 GR
+  0 _revizaPerdio                                                  184A GR
+  0 _revizaRenglon                                                 1BD8 GR
+  0 _spiInit                                                       0266 GR
+  0 _spiWrite16                                                    02B0 GR
+  0 _spiWrite8                                                     026F GR
+  0 _spiWriteBuffer16                                              030F GR
+  0 _spiWriteBuffer8                                               02EF GR
+  0 _system_init                                                   05F1 GR
+  0 _uart_available                                                00C8 GR
+  0 _uart_disable_interrupts                                       019C GR
+  0 _uart_enable_interrupts                                        01A1 GR
+  0 _uart_init                                                     005D GR
+  0 _uart_print                                                    00D0 GR
+  0 _uart_read                                                     00BC GR
+  0 _uart_read_line                                                00E5 GR
+  0 _uart_set_baudrate                                             0093 GR
+  0 _uart_write                                                    00AB GR
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180), page 3.
+Hexadecimal [16-Bits]
+
+Area Table
+
+   0 _CODE                                      size 1DB5   flags    0
+   1 _DATA                                      size    3   flags    0
+   2 _INITIALIZED                               size    8   flags    0
+   3 _DABS                                      size    0   flags    8
+   4 _HOME                                      size    0   flags    0
+   5 _GSINIT                                    size    0   flags    0
+   6 _GSFINAL                                   size    0   flags    0
+   7 _INITIALIZER                               size    8   flags    0
+   8 _CABS                                      size    0   flags    8
+
