@@ -26,7 +26,7 @@ PA2 -> Pin CLK del MAX7219
 
 
 
-#Imagenes del Hardware
+# Imagenes del Hardware
 
 		#Pantalla y botonera
 
