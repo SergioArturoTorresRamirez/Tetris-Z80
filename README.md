@@ -20,16 +20,17 @@ el SMZ80 no incorpora esta comunicación por Hardware. El chip se controla media
 
 La conexión del chip al puerto A es la siguiente:
 
-		PA0 -> Pin DIN del MAX7219
-		PA1 -> Pin CS del MAX7219
-		PA2 -> Pin CLK del MAX7219
+	PA0 -> Pin DIN del MAX7219
+	PA1 -> Pin CS del MAX7219
+	PA2 -> Pin CLK del MAX7219
 
 
 
 # Imagenes del Hardware
 
-		#Pantalla y botonera
-
-		#SMZ80
-
-		#Conexión
+	# Pantalla y botonera
+	![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+	# SMZ80
+	![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+	# Conexión
+	![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
