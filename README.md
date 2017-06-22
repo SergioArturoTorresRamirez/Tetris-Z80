@@ -28,9 +28,9 @@ La conexión del chip al puerto A es la siguiente:
 
 # Imagenes del Hardware
 
-	# Pantalla y botonera
-	![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-	# SMZ80
-	![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-	# Conexión
-	![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+# Pantalla y botonera
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+# SMZ80
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+# Conexión
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
