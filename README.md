@@ -29,8 +29,8 @@ La conexión del chip al puerto A es la siguiente:
 # Imagenes del Hardware
 
 # Pantalla y botonera
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://github.com/SergioArturoTorresRamirez/Tetris-Z80/raw/master/img/matriz.jpg)
 # SMZ80
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://github.com/SergioArturoTorresRamirez/Tetris-Z80/raw/master/img/smz80.jpg)
 # Conexión
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://github.com/SergioArturoTorresRamirez/Tetris-Z80/raw/master/img/tetris.jpg)
