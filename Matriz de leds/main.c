@@ -40,7 +40,7 @@ ISR_NMI(){
 ISR_INT_38(){
 }
 
-
+// Estructura para almacenar un pixel
 typedef struct
 {
     unsigned char x;
@@ -78,6 +78,12 @@ void dibujaFigura(pixel f[3][3])
    
 }
 
+/**
+ * @brief Borra la figura de la pantalla
+ * @details Pone en ceros la posición de la matriz en la que se encuentra la figura
+ * 
+ * @param f Matriz de pixeles de la figura
+ */
 void borraFigura(pixel f[3][3])
 {
     int i;
